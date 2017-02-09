@@ -15,16 +15,16 @@ namespace Project.Models
     public DateTime DateOfBirth{get;set;}
     
     [StringLength(20)]
-    public class DisplayName{get;set;}
+    public string DisplayName{get;set;}
     
     [StringLength(50)]
-    public class Address{get;set;}
+    public string Address{get;set;}
     
     [StringLength(30)]
-    public class City(get;set;}
+    public string City(get;set;}
     
     [StringLength(8)]
-    public class Postcode{get;set;}
+    public string Postcode{get;set;}
     
   }
 }
