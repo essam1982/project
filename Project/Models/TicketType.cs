@@ -17,10 +17,16 @@ namespace Project.Models
         public string Description{get; set;}
         
         [Required]
-        private double OffPeakPrice  {get; set;}
+        public double OffPeakPrice  {get; set;}
         
+        [Required] 
+        public double PeakPrice {get; set;}
         
+        public double ExtraCharge3D{get; set;}
         
+        public double ExtraChargeIMax{get; set;}
+        
+        public double ExtraChargeBlockBuster{get; set;}   
         
     }
 }
