@@ -8,7 +8,7 @@ namespace Project.Models
 {
   public class Customer
   {
-    [Required]
+    [Key,Required]
     public string CustomerId{get; set}
     
     [Required]
