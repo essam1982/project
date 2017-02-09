@@ -17,7 +17,9 @@ namespace Project.Models
         public string Description{get; set;}
         
         [Required]
-        private double OffPeakPrice  {get, 
+        private double OffPeakPrice  {get; set;}
+        
+        
         
         
     }
